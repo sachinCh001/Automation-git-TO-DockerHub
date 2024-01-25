@@ -24,3 +24,7 @@ This repository serves as a central hub for organizing all our Docker images. We
    ├── Dependency
 
 ### Please refer to pre-existing image directories if you have any questions.
+
+### Run will be like
+
+![Alt text](image.png)
