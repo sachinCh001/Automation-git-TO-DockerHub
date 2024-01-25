@@ -72,9 +72,3 @@ jobs:
         env:
           DOCKER_CLI_AGGREGATE: 1
           DOCKER_BUILDKIT: 1
-
-          docker tag jira:latest skc1998/jira:v.0.0.1
-          docker push skc1998/jira:v.0.0.1
-        env:
-          DOCKER_CLI_AGGREGATE: 1
-          DOCKER_BUILDKIT: 1
