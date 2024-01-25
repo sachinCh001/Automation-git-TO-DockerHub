@@ -8,5 +8,3 @@ RUN apt-get update && \
 
 # Set the default command to bash
 CMD ["bash"]
-
-
