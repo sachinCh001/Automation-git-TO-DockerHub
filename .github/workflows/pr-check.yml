@@ -31,7 +31,7 @@ jobs:
       - name: Build and Push
         run: |
           echo "Start Building Image"
-          docker build -t jira:latest -f git-PR-check/Dockerfile jira
+          docker build -t jira:latest -f git-PR-check/Dockerfile git-PR-check
           docker tag jira:latest skc1998/jira:v0.0.1
           docker push skc1998/jira:v0.0.1
         env:
