@@ -33,8 +33,8 @@ jobs:
         run: |
           echo "Start Building Image"
           docker build -t ubuntu:latest -f ubuntu/Dockerfile ubuntu
-          docker tag ubuntu:latest skc1998/ubuntu:latest
-          docker push skc1998/ubuntu:latest
+          docker tag ubuntu:latest skc1998/ubuntu:v.0.0.1
+          docker push skc1998/ubuntu:v.0.0.1
         env:
           DOCKER_CLI_AGGREGATE: 1
           DOCKER_BUILDKIT: 1
